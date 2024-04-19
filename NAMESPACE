@@ -1,0 +1,8 @@
+export(protein_amino_seq)
+export(calculate_molecular_weight)
+exportClasses("protein_seq", "Protein")
+importFrom(Biostrings, DNAStringSet)
+importFrom(methods, setClass, new)
+
+
+
